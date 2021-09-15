@@ -13,10 +13,10 @@ const Hero = (props) => (
         Welcome to my personal portfolio website.
       </SectionTitle>
       <SectionText>
-        Aspiring Software Engineer
+        Aspiring ML Engineer
       </SectionText>
-      {/* can be set the location to my email or my projects */}
-      <Button onClick={() => window.location = "https://google.com"}>Learn More</Button>
+      {/* can be set the location to my email or my projects
+      <Button onClick={() => window.location = "https://google.com"}>Learn More</Button> */}
     </LeftSection>
   </Section>
 );

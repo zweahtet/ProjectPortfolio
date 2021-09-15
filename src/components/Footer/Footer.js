@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { SocialMedia } from '../../constants/constants';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -7,7 +8,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <FooterWrapper>
-      <LinkList>
+      {/* <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
@@ -16,20 +17,17 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:contact@gmail.com">contact@gmail.com</LinkItem>
         </LinkColumn>
-      </LinkList>
+      </LinkList> */}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href={SocialMedia.Github.visit}>
             <AiFillGithub size="3rem"/>
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href={SocialMedia.LinkedIn.visit}>
             <AiFillLinkedin size="3rem"/>
-          </SocialIcons>
-          <SocialIcons href="https://instagram.com">
-            <AiFillInstagram size="3rem"/>
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
