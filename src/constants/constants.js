@@ -7,6 +7,15 @@ export const projects = [
     source: 'https://financial-literatus.github.io',
     visit: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
     id: 0,
+  },
+  {
+    title: 'Ants vs Some Bees',
+    description: "This game is inspired by PopCap Games' Plants Vs. Zombies. This project uses an object-oriented programming paradigm, focusing on material from Chapter 2.5 of Composing Programs. The project also involves understanding, extending, and testing a large program.",
+    image: '/images/antsVsSomeBees.jpeg',
+    tags: ['Python', 'OOP', 'Javascript', 'Flask'],
+    source: 'https://financial-literatus.github.io',
+    visit: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
+    id: 1,
   }
 ];
 

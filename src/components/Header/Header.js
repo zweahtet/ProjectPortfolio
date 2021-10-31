@@ -33,6 +33,11 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="/discussions">
+          <NavLink>Discussions</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialContainer>
