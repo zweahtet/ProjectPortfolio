@@ -8,17 +8,17 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 export default function Home() {
-  return (
-    <Layout>
-      <Section grid> 
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
-    </Layout>
-  );
+	return (
+        <Layout>
+            <Section grid> 
+                <Hero />
+                <BgAnimation />
+            </Section>
+            <Projects />
+            <Technologies />
+            <Timeline />
+            <Acomplishments />
+        </Layout>
+    );
 };
 
