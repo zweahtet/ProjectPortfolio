@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { DiCssdeck } from 'react-icons/di';
-import { Container as Div1, Div2, Div3, NavLink, SocialIcons, Span } from '../components/Header/HeaderStyles';
 import clientPromise from '../../util/mongodb';
-import { Container } from '../layout/LayoutStyles';
 import SideNav from '../components/SideNav/SideNav';
 import Content from '../components/Content/Content';
 import Footer from '../components/Footer/Footer';
