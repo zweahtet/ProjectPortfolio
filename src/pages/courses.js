@@ -17,12 +17,12 @@ export default function Courses({ courses }) {
         }, {});
     }
 
-    const coursesGroupByName = groupBy("name", courses)
+    const coursesGroupByName = groupBy("course", courses)
     const courseNames = Object.keys(coursesGroupByName)
 
     const [state, setState] = React.useState({
-        courseHeader: 'cs61A',
-        categories: coursesGroupByName['cs61A']
+        courseHeader: 'cs61a',
+        categories: coursesGroupByName['cs61a']
     })
 
     const handleOnClick = (event) => {
@@ -36,7 +36,7 @@ export default function Courses({ courses }) {
         <div className="flex flex-col relative min-h-screen md:flex">
             <Header/>
             <div className="flex h-full flex-grow">
-                <SideNav names={courseNames} onClick={handleOnClick}/>
+                <SideNav courses={courseNames} onClick={handleOnClick}/>
                 <Content contentHeader={state.courseHeader} contentCategories={state.categories} />
             </div>
             <Footer/>                                    

@@ -22,8 +22,8 @@ export default function SideNav(props) {
                         value="list-of-courses" 
                         className="block py-2.5 px-1.5"
                     >
-                        {props.names.map((name, id) => 
-                            <li className="py-2 rounded transition duration-200 hover:bg-gray-500 hover:text-white" key={id} onClick={props.onClick} value={name}>{name}</li>
+                        {props.courses.map((course, id) => 
+                            <li className="py-2 rounded transition duration-200 hover:bg-gray-500 hover:text-white" key={id} onClick={props.onClick} value={course}>{course}</li>
                         )}
                     </ul>
                 </nav>
