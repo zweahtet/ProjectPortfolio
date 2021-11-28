@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
-import { DiCssdeck } from 'react-icons/di';
 import clientPromise from '../../util/mongodb';
 import SideNav from '../components/SideNav/SideNav';
 import Content from '../components/Content/Content';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header';
 
-export default function Courses({ courses }) {
+export default function Categories({ courses }) {
     const groupBy = (key, array) => {
         return array.reduce((result, currentElement) => {
             const property = currentElement[key];

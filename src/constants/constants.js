@@ -5,7 +5,7 @@ export const projects = [
 		image: '/images/financialLiteratusHomePage.jpeg',
 		tags: ['React', 'Redux', 'Typescript', 'Axios'],
 		source: 'https://financial-literatus.github.io',
-		visit: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
+		code: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
 		id: 0,
 	},
 	{
@@ -14,7 +14,7 @@ export const projects = [
 		image: '/images/antsVsSomeBees.jpeg',
 		tags: ['Python', 'OOP', 'Javascript', 'Flask'],
 		source: 'https://financial-literatus.github.io',
-		visit: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
+		code: 'https://github.com/financial-literatus/financial-literatus.github.io.git',
 		id: 1,
 	}
 ];
@@ -22,8 +22,8 @@ export const projects = [
 export const TimeLineData = [
 	{ year: 2017, text: 'Self-taught basic web development',},
 	{ year: 2018, text: 'Started my college career'},
-	{ year: 2021, text: 'Developed Financial Literatus'}
-	,
+	{ year: 2021, text: 'Developed Financial Literatus'},
+	{ year: 2021, text: 'Software Engineer at ConnectAtCal'},
 ];
 
 export const AccomplishmentData = [
@@ -39,7 +39,7 @@ export const SocialMedia = {
 	}
 }
 
-export const Courses = [
+export const CourseData = [
 	{ id: 0, name: "CS 61A" },
 	{ id: 1, name: "CS 61B" },
 	{ id: 2, name: "CS 61C" },
