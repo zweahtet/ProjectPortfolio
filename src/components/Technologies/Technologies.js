@@ -6,9 +6,6 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
-      I have some experience in web design.
-    </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem"/>

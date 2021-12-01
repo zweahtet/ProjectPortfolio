@@ -5,7 +5,7 @@ import { CourseData } from "../../constants/constants";
 import Link from "next/link";
 
 const Courses = () => (
-    <Section nopadding id="courses">
+    <Section id="courses">
         <SectionTitle>Notable Courseworks</SectionTitle>
         <Boxes>
             {CourseData.map((item, index) => (

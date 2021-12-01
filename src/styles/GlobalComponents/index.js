@@ -32,15 +32,14 @@ export const SectionTitle = styled.h2`
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: inherit;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: auto;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
 
   @media ${props => props.theme.breakpoints.sm}{
@@ -49,7 +48,6 @@ export const SectionTitle = styled.h2`
     font-size: ${(props) => props.main ? '28px' : '32px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
   }
 `
@@ -60,7 +58,6 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -103,7 +100,6 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -117,7 +113,6 @@ export const SectionSubText = styled.p`
   }
 `
 export const SecondaryBtn = styled.button`
-  color: #FFF;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
   box-sizing: border-box;
@@ -176,7 +171,6 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #fff;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
@@ -202,7 +196,6 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
   display: flex;
   position: absolute;
   top: 0;

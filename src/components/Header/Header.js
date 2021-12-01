@@ -5,12 +5,12 @@ import { SocialMedia } from '../../constants/constants';
 import { SocialContainer } from '../Footer/FooterStyles';
 
 // style component for header
-import { NavLink, SocialIcons,Span } from './HeaderStyles';
+import { SocialIcons } from './HeaderStyles';
 
 export default function Header (props) {
   return (
 	<div>
-		<header>
+		<header className="shadow border-b-2 border-indigo-600">
 			<div>
 				<div className="container mx-auto px-6 py-4">
 					<div className="flex items-center justify-between">
