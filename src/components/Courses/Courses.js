@@ -1,20 +1,21 @@
-import { SectionTitle } from "../../styles/GlobalComponents";
-import { Section } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from '../Acomplishments/AcomplishmentsStyles';
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import { CourseData } from "../../constants/constants";
 import Link from "next/link";
+import { CourseTag, CourseTags, CourseText} from "./CoursesStyles";
 
 const Courses = () => (
     <Section id="courses">
         <SectionTitle>Notable Courseworks</SectionTitle>
-        <Boxes>
+        <CourseTags>
             {CourseData.map((item, index) => (
-                <Box key={index}>
-                    <BoxText>{item.name}</BoxText>
-                </Box>
+                <Link href="\courses">
+                    <CourseTag key={index}>
+                        <CourseText>{item.name}</CourseText>
+                    </CourseTag>
+                </Link>
             ))}
-        </Boxes>
-        <Link href="/courses">Click here to see problems ...</Link>
+        </CourseTags>
+
     </Section>
 )
 

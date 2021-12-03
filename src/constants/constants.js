@@ -40,7 +40,7 @@ export const SocialMedia = {
 }
 
 export const CourseData = [
-	{ id: 0, name: "CS 61A" },
-	{ id: 1, name: "CS 61B" },
-	{ id: 2, name: "CS 61C" },
+	{ id: 0, name: "Structure and Interpretation of Computer Programs" },
+	{ id: 1, name: "Data Structures and Algorithms with Java" },
+	{ id: 2, name: "Data Structures and Algorithms with Java" },
 ]

@@ -75,6 +75,7 @@ export const ExternalLinks = styled.a`
 
 export const TagList = styled.ul`
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-around;
   padding: 0.9rem 0
 `;
