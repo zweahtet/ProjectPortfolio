@@ -40,20 +40,20 @@ export const LinkItem = styled.a`
 `
 
 export const SocialIconsContainer = styled.div`
-max-width: 1040px;
-display: flex;
-justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
-@media ${props => props.theme.breakpoints.md}{
-  display: flex;
-  justify-content: space-between;
-}
+	@media ${props => props.theme.breakpoints.md}{
+	display: flex;
+	justify-content: space-between;
+	}
 
-@media ${props => props.theme.breakpoints.sm}{
-  display: flex;
-	width: 100%;
-  flex-direction: column;
-}
+	@media ${props => props.theme.breakpoints.sm}{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+	}
 `
 
 export const CompanyContainer = styled.div`
@@ -98,13 +98,13 @@ export const Slogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  	align-items: center;
 
-	@media ${props => props.theme.breakpoints.md}{
-		justify-content: center;
-		padding-right: 16px;
-		flex-wrap: wrap;
-	}
+	// @media ${props => props.theme.breakpoints.md}{
+	// 	justify-content: center;
+	// 	padding-right: 16px;
+	// 	flex-wrap: wrap;
+	// }
 `
 
 

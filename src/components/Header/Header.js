@@ -22,7 +22,7 @@ export default function Header (props) {
 								<span className="mx-3 fond-medium">Zwea Htet</span>
 							</a>
 						</div>
-						<div className="flex itesm-center -mx-2">
+						<div className="flex items-center -mx-2">
 							<SocialContainer>
 								<SocialIcons href={SocialMedia.Github.visit}>
 									<AiFillGithub size="3rem"/>

@@ -8,7 +8,7 @@ const Courses = () => (
         <SectionTitle>Notable Courseworks</SectionTitle>
         <CourseTags>
             {CourseData.map((item, index) => (
-                <Link href="\courses">
+                <Link href="\Courses">
                     <CourseTag key={index}>
                         <CourseText>{item.name}</CourseText>
                     </CourseTag>
