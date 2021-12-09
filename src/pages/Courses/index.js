@@ -30,7 +30,7 @@ export default function Courses({ courses }) {
     })
 
     const handleOnClickNav = (event) => {
-        alert(event.target.getAttribute('id'))
+        // alert(event.target.getAttribute('id'))
         setState({
             contentHeader: event.target.getAttribute('value'),
             contentBody: coursesGroupByName[event.target.getAttribute('value')],

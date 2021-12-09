@@ -12,7 +12,7 @@ export default function SideNav(props) {
                 {props.navList.map((each, id) => 
                     <li 
                         className="p-2 rounded transition 
-                        duration-200 hover:bg-gray-500 hover:text-white" 
+                        duration-200 hover:bg-indigo-500 hover:text-white" 
                         key={each.id} 
                         id={each.id}
                         onClick={props.onClick} 

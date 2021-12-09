@@ -4,12 +4,9 @@ import { CopyBlock, dracula } from "react-code-blocks";
 
 export default function Detail( props ) {
     return (
-        <main className="flex flex-col w-full overflow-x-hidden overflow-y-auto py-1 px-4 text-2xl">
-            <div className="grid grid-cols-5">
-                <Link href="/Courses" className="">
-                    <a>Back</a>
-                </Link>
-                <h1 className="font-bold col-span-3 text-center">{props.contentHeader}</h1>
+        <main className="flex flex-col overflow-x-hidden overflow-y-auto py-1 px-4 text-2xl">
+            <div className="flex flex-row justify-center">
+                <h1 className="font-bold">{props.contentHeader}</h1>
             </div>
             <div className="panel-body">
                 <h3 className="panel-question">
